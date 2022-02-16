@@ -7,7 +7,7 @@ try {
     const app = new App(server)
     
     server.listen(9090, function() {
-        console.log('Socket IO server listening on port 3000');
+        console.log('Socket IO server listening on port 9090');
     });
 
 } catch (error ) { 

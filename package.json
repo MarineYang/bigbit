@@ -12,7 +12,6 @@
   "author": "marineyang",
   "license": "ISC",
   "dependencies": {
-    "@d3fc/d3fc-technical-indicator": "^8.1.0",
     "axios": "^0.25.0",
     "express": "^4.17.2",
     "socket.io": "^4.4.1",

@@ -1,4 +1,3 @@
-import { indicatorRelativeStrengthIndex } from '@d3fc/d3fc-technical-indicator';
 const wsModule = require("ws")
 import axios from 'axios';              // Promise based HTTP client for the browser and node.js.
 
@@ -7,7 +6,6 @@ function App(_server) {
     const wss = new wsModule.Server({server: _server})
 
     wss.on('connection', async function(ws, req) {
-        indicatorRelativeStrengthIndex
 
         // fear and greedy value
         const fear_greedy = await axios("https://api.alternative.me/fng/")
